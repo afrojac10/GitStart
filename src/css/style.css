@@ -1,0 +1,172 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.logoImg {
+  width: 170px;
+  position: relative;
+  right: 150px;
+  top: 10px;
+}
+
+.logo {
+  background-color: #1e88e5 !important;
+}
+
+.fas {
+  color: rgba(255, 255, 255, 0.705);
+  font-size: 18px;
+  position: relative;
+  bottom: 12px;
+  right: 21px;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.back {
+  background: green;
+  /* width: 10px !important; */
+  padding: 1px 33px !important;
+  position: relative;
+  top: 12px;
+  height: 41px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.trailText {
+  position: relative;
+  bottom: 92px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.02857em;
+  left: 13px;
+}
+
+.searchHeader {
+  position: relative;
+  bottom: 83px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.02857em;
+  left: 13px;
+}
+
+.flex {
+  position: relative;
+  left: 180px;
+}
+
+.search {
+  background-color: rgba(41, 74, 65, 0.1);
+  color: rgba(41, 74, 65, 0.1);
+}
+
+.material-icons {
+  /* color: rgba(255, 255, 255, 0.705);
+  font-size: 18px; */
+  position: relative;
+  bottom: 12px;
+  right: 21px;
+  margin: 0 10px;
+}
+
+.back1 {
+  /* background: green; */
+  /* width: 10px !important; */
+  padding: 1px 33px !important;
+  position: relative;
+  top: 12px;
+  height: 41px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.signOut {
+  left: 20px;
+}
+
+.matIcon {
+  position: relative;
+  top: 10px;
+  left: 35px;
+}
+
+.k {
+  position: relative;
+  float: right;
+  clear: both;
+  margin: 0 50px 0;
+  top: 15px;
+}
+
+.kanbanSection {
+  margin: 30px 0 0;
+}
+
+.waves-effect {
+  background: #1e88e5 !important;
+}
+
+.board {
+  margin: 0 !important;
+  /* position: relative;
+  bottom: 45px; */
+}
+
+.kanBan {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.06px;
+  font-size: 24px;
+  color: #263238;
+}
+
+.kanbanOrg {
+  color: #546e7a;
+  font-size: 11px;
+  letter-spacing: 0.33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.burgerMenu {
+  padding: 1px 33px !important;
+  position: relative;
+  top: 0;
+  height: 41px;
+  border-radius: 5px;
+  margin: 0 10px;
+  right: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+  .mLogo {
+    /* padding: 1px 33px !important; */
+    position: relative;
+    top: 5px;
+    height: 45px;
+    /* border-radius: 5px; */
+    /* margin: 0 10px; */
+    right: 80px;
+  }
+}
