@@ -6,6 +6,13 @@ interface prop {
 }
 
 export default function Added({ taskName, taskDetails }) {
+  /**
+   * Feature Still Under Test
+   *
+   * This componet is currently in use but it is still under development.
+   *
+   * Aim: This should handle the added Boards
+   */
   return (
     <div className="row">
       <div className="col l12 m6 l3">

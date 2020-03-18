@@ -1,14 +1,19 @@
 import React, { useState, Fragment } from "react";
 import "materialize-css/dist/css/materialize.min.css";
-import InputTask from "./InputTask";
 import { render } from "@testing-library/react";
 import Added from "./Added";
 
 export default function KanBanBord() {
-  // document.addEventListener("DOMContentLoaded", function() {
-  //   var elems = document.querySelectorAll(".collapsible");
-  //   var instances = M.Collapsible.init(elems, {});
-  // });
+  /**
+   * Feature Still Under Test
+   * 
+   * document.addEventListener("DOMContentLoaded", function() {
+      var elems = document.querySelectorAll(".collapsible");
+      var instances = M.Collapsible.init(elems, {});
+   });
+   *  
+   */
+
   const [addInput, setInput] = useState("");
   const [addInputTask, setInputTask] = useState("");
 

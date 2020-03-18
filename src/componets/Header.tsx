@@ -58,14 +58,9 @@ export default function Header() {
                 </li>
               </ul>
 
-              <ul
-                id="nav-mobile"
-                className="sidenav"
-
-                // style={{ transform: "translateX(-105%)" }}
-              >
+              <ul id="nav-mobile" className="sidenav">
                 <li>
-                  <a href="#">Navbar Link</a>
+                  <a href="/">Home</a>
                 </li>
               </ul>
             </div>
