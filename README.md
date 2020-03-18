@@ -1,8 +1,13 @@
-/\*_
-/ _ Created By: Blaise Njike
-Purpose : New UI
-Note : This project was a reconstruct "concept" for GitStart Dev "Kanban Section"
-\*/
+
+>> Created By: Blaise Njike
+
+>> Purpose : New UI
+
+>> Note : This project was a reconstruct "concept" for GitStart Dev "Kanban Section"
+
+**Due to some challenges i'm facing i could not complete this project but i would soon hopefully**
+
+URL: https://loving-swanson-8cd0e7.netlify.com/
 
 ## Available Scripts
 
