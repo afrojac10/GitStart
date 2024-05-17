@@ -24,8 +24,8 @@ export default function Added({ taskName, taskDetails }) {
                 <p>{taskDetails}</p>
               </div>
               <div className="card-action">
-                <a href="#">This is a link</a>
-                <a href="#">This is a link</a>
+{/*                 <a href="#">This is a link</a>
+                <a href="#">This is a link</a> */}
               </div>
             </div>
           </div>
