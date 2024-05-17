@@ -34,7 +34,7 @@ export default function KanBanBord() {
     if (addInput.trim() !== "" && addInputTask.trim() !== "") {
       render(<Added taskName={addInput} taskDetails={addInputTask} />);
       clearState();
-      let me = document.querySelector("#input_text");
+      // let me = document.querySelector("#input_text");
     }
   };
 
