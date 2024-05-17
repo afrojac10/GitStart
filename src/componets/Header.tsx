@@ -6,7 +6,7 @@ import M from "materialize-css";
 export default function Header() {
   document.addEventListener("DOMContentLoaded", function() {
     var elems = document.querySelectorAll(".sidenav");
-    var instances = M.Sidenav.init(elems, {});
+    // var instances = M.Sidenav.init(elems, {});
   });
   return (
     <div>
@@ -64,10 +64,10 @@ export default function Header() {
                 </li>
               </ul>
             </div>
-          </Fragment>
           <a href="#" data-target="nav-mobile" className="sidenav-trigger">
             <i className="material-icons burgerMenu">menu</i>
           </a>
+          </Fragment>
         </div>
       </nav>
     </div>
